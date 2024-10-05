@@ -152,7 +152,7 @@ body {
 
 
 .content-container {
-  margin-bottom: 4rem;
+  margin: 4rem 0;
 
   .content {
     display: flex;
