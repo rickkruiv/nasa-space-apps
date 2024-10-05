@@ -1,0 +1,37 @@
+.game-container {
+  position: relative;
+  width: 900px;  /* Limitar a largura visível a 900px */
+  height: 600px;  /* Altura fixa para o jogo */
+  background-color: #000;
+  overflow: hidden;  /* Esconder partes que estão fora da área de 900px */
+  margin: 0 auto;  /* Centralizar o jogo na tela */
+  border: 2px solid white;  /* Adicionar uma borda ao redor do jogo */
+}
+
+#gameCanvas {
+  display: block;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2000px;  /* Manter o canvas maior para dar espaço de jogo */
+  height: 600px;
+}
+
+#startBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 18px;
+}
