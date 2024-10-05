@@ -181,71 +181,11 @@ body {
   }
 }
 
-.graphic01 {
-  align-self: flex-end;
-  border: 16px solid #000000;
-  outline: 2px solid #FFFFFF;
-  border-radius: 1rem;
-  border-radius: 1rem;
-}
-
-.aurora-cards {
+.news-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
-}
-
-.aurora-card {
-  background-color: #090909;
-  border-radius: 1rem;
-  padding: 1rem;
-
   img {
-    border-radius: 10px;
-    margin-bottom: .5rem;
-    width: 250px;
-    height: 150px;
-  }
-
-  .colors {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin: .5rem 0;
-  }
-
-  p {
-    font-size: 0.8rem;
-    padding-left: .2rem;
-    margin: .2rem 0;
-
-    i {
-      margin-right: .2rem;
-    }
-  }
-
-  .color {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 2px solid #cccccc;
-    background-color: #FFFFFF;
-  }
-
-  .red {
-    background-color: #FF0000;
-  }
-  .green {
-    background-color: #00FF00;
-  }
-  .blue {
-    background-color: #0000FF;
-  }
-  .pink {
-    background-color: #FE5992;
-  }
-  .purple {
-    background-color: #800080;
+    max-width: 80%;
   }
 }
